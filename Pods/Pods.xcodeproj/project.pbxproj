@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C82B06C8559783A6EC45BD684BCFB16 /* GSPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EAB857337ADFDB6FFE02136CC44EC3E /* GSPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24B6737A9AABC8DBE7DA318B50C5B560 /* VideoCacheAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5C1BC1A910BA7628C239D1BB6A789E /* VideoCacheAction.swift */; };
+		289FED8F5165D62CEE47145474C4C5B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2A2EEE6A0078AF3E32798171C1097DF9 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD65AAF633722D07D2B81D817BFF7F6 /* VideoPlayerView.swift */; };
+		2FD44E818BB4482738FE660F8E64A86C /* GSPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E5D353B8C9FCED6BD9361108F74A9C /* GSPlayer-dummy.m */; };
+		3D5A87B6896E93E3F43056F597DB6355 /* VideoDownloadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064DFC3CBC4D033E1B8CAC14EA0CBCE6 /* VideoDownloadInfo.swift */; };
+		4783FB1F2AF274CC05E491CA7E8A94CA /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA69939EEB725CD436925ABD2D7092D /* String+Extensions.swift */; };
+		4A82106C26CA6CCE1A6F810100F25F1E /* AVPlayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32933F705EEB283AF75E17FC85C85199 /* AVPlayer+Extensions.swift */; };
+		4B415487E2BC3487CB6A468BC94A5AF4 /* VideoCacheConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934962BEF881B0B454F9A56BE22E2D04 /* VideoCacheConfiguration.swift */; };
+		5525FB4F48E5FFE77740544CBD30A6A7 /* VideoPreloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCECC94B02E5F447516967E78BEF62D1 /* VideoPreloadManager.swift */; };
+		5C0BADEBF1273C00C832657FFFA27CC6 /* VideoCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E58B81B05807DB2F362651704BCA7EB /* VideoCacheManager.swift */; };
+		6ABF3BFD45C0B21D957CA45156EE3385 /* VideoFullscreenPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F1062C1C8D5C53DF834BD09BAD400F /* VideoFullscreenPlayerView.swift */; };
+		7FFD73973C27E1F799F15DC6DB1222F5 /* VideoDownloaderSessionDelegateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A71D1891D93E92541E59B0AE19BED23 /* VideoDownloaderSessionDelegateHandler.swift */; };
+		9E82711AA844D4745AAC9BB9820F7A20 /* Pods-TikTokDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB8F4BB70075B6326FF85999F5E29D9 /* Pods-TikTokDemo-dummy.m */; };
+		B4783C41FA22D4E5AA2F078B53040503 /* Float+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6977FC96D047686B2E5EE907E85989F /* Float+Extensions.swift */; };
+		B7AB590F2D4CCE324E28D33168B113B3 /* VideoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DD64B233EF4F8942AB68090B73F99C /* VideoInfo.swift */; };
+		BC3AFD6C60C9E3DDA9228B7E26A45399 /* VideoLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5AD15AA989246EE715887CCD202EF2 /* VideoLoader.swift */; };
+		BD87773BCEEDF08E6A90CA47DDEBD16B /* VideoFullscreenTransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849B77CD34A6787A02AEA54D18A8EA7 /* VideoFullscreenTransitioner.swift */; };
+		C0EA1C1AAE2E20DED2F70FA7F97D6D06 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51E1221EAEE5959A4BE0C1F9F699276 /* Int+Extensions.swift */; };
+		C6A3A5DBF024791A117B34D969819517 /* Pods-TikTokDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9A4AB9F543129CE4F744B048E0C85C /* Pods-TikTokDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D69FD70A580EF63DB7746FE82FFF2C52 /* VideoRequestLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5FA91783B05A5C4430B929277C825 /* VideoRequestLoader.swift */; };
+		D8C4A7FD4CD34FDAFDA7357D170BD51A /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1751F2537D98A01304E8BC154D62B10E /* Double+Extensions.swift */; };
+		DD8D792486A6C81510134ECE9BD43CAA /* VideoCacheHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82A4184D82EE50E02F026B5689FC438 /* VideoCacheHandler.swift */; };
+		DE4607625926C5B769341885B3C488B6 /* AVPlayerItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33AA67827725380F5B2A8F0EC2CA2C9 /* AVPlayerItem+Extensions.swift */; };
+		E3C6D81E74D372BD4E08D791716308F1 /* AVAssetResourceLoadingRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F823D8CECDB22793F10A4A8E89EAC6C2 /* AVAssetResourceLoadingRequest+Extensions.swift */; };
+		E3D1078D2C74443EE56D0C85DEA986DD /* VideoDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42072EA7CDF3D22DCEA15E1CDAB30B37 /* VideoDownloader.swift */; };
+		E7F5BF60120215B89BCEEA38EF3A3393 /* VideoLoadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B2006C12AD147C6A6415A4F31F6648 /* VideoLoadManager.swift */; };
+		E99B5B021844C87F17A597D1D4A18109 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F048A60C28A6E3A61186C8C52E02BD5B /* VideoDownloaderHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7A3DE50FBCA4219E07B120FE11D899 /* VideoDownloaderHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		446DC7D152D44A5BA829F90F6CF83A2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50D5373B27D8A6802F70DC3E85BF8716;
+			remoteInfo = GSPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064DFC3CBC4D033E1B8CAC14EA0CBCE6 /* VideoDownloadInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoDownloadInfo.swift; path = GSPlayer/Classes/Download/VideoDownloadInfo.swift; sourceTree = "<group>"; };
+		10B2006C12AD147C6A6415A4F31F6648 /* VideoLoadManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoLoadManager.swift; path = GSPlayer/Classes/Loader/VideoLoadManager.swift; sourceTree = "<group>"; };
+		1751F2537D98A01304E8BC154D62B10E /* Double+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Double+Extensions.swift"; path = "GSPlayer/Classes/Extension/Double+Extensions.swift"; sourceTree = "<group>"; };
+		1849B77CD34A6787A02AEA54D18A8EA7 /* VideoFullscreenTransitioner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoFullscreenTransitioner.swift; path = GSPlayer/Classes/View/VideoFullscreenTransitioner.swift; sourceTree = "<group>"; };
+		1CD1F1499705854AC0A60BBAC208D234 /* Pods-TikTokDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TikTokDemo.modulemap"; sourceTree = "<group>"; };
+		1E7A3DE50FBCA4219E07B120FE11D899 /* VideoDownloaderHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoDownloaderHandler.swift; path = GSPlayer/Classes/Download/VideoDownloaderHandler.swift; sourceTree = "<group>"; };
+		1EAB857337ADFDB6FFE02136CC44EC3E /* GSPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSPlayer-umbrella.h"; sourceTree = "<group>"; };
+		22F1062C1C8D5C53DF834BD09BAD400F /* VideoFullscreenPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoFullscreenPlayerView.swift; path = GSPlayer/Classes/View/VideoFullscreenPlayerView.swift; sourceTree = "<group>"; };
+		26FD233C238F4D647EBAF25B7CD3FFDC /* Pods-TikTokDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TikTokDemo"; path = Pods_TikTokDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A71D1891D93E92541E59B0AE19BED23 /* VideoDownloaderSessionDelegateHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoDownloaderSessionDelegateHandler.swift; path = GSPlayer/Classes/Download/VideoDownloaderSessionDelegateHandler.swift; sourceTree = "<group>"; };
+		32933F705EEB283AF75E17FC85C85199 /* AVPlayer+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVPlayer+Extensions.swift"; path = "GSPlayer/Classes/Extension/AVPlayer+Extensions.swift"; sourceTree = "<group>"; };
+		3AA69939EEB725CD436925ABD2D7092D /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extensions.swift"; path = "GSPlayer/Classes/Extension/String+Extensions.swift"; sourceTree = "<group>"; };
+		42072EA7CDF3D22DCEA15E1CDAB30B37 /* VideoDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoDownloader.swift; path = GSPlayer/Classes/Download/VideoDownloader.swift; sourceTree = "<group>"; };
+		4B5AD15AA989246EE715887CCD202EF2 /* VideoLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoLoader.swift; path = GSPlayer/Classes/Loader/VideoLoader.swift; sourceTree = "<group>"; };
+		4BA7FBBECE29F00EC3CAAA7B83FC187B /* GSPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSPlayer-prefix.pch"; sourceTree = "<group>"; };
+		5667A6A28E3C4BE3A90862102733737C /* Pods-TikTokDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TikTokDemo-frameworks.sh"; sourceTree = "<group>"; };
+		62D659BEFB8367F06FC4E1A61F1DC11A /* Pods-TikTokDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TikTokDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6E58B81B05807DB2F362651704BCA7EB /* VideoCacheManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoCacheManager.swift; path = GSPlayer/Classes/Cache/VideoCacheManager.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73DD64B233EF4F8942AB68090B73F99C /* VideoInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoInfo.swift; path = GSPlayer/Classes/Loader/VideoInfo.swift; sourceTree = "<group>"; };
+		7C5C1BC1A910BA7628C239D1BB6A789E /* VideoCacheAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoCacheAction.swift; path = GSPlayer/Classes/Cache/VideoCacheAction.swift; sourceTree = "<group>"; };
+		809B2C3EED38CDC368DB0F367C1C5FE5 /* GSPlayer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GSPlayer; path = GSPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD5FA91783B05A5C4430B929277C825 /* VideoRequestLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoRequestLoader.swift; path = GSPlayer/Classes/Loader/VideoRequestLoader.swift; sourceTree = "<group>"; };
+		8F9A4AB9F543129CE4F744B048E0C85C /* Pods-TikTokDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TikTokDemo-umbrella.h"; sourceTree = "<group>"; };
+		934962BEF881B0B454F9A56BE22E2D04 /* VideoCacheConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoCacheConfiguration.swift; path = GSPlayer/Classes/Cache/VideoCacheConfiguration.swift; sourceTree = "<group>"; };
+		9CF278DB05C14B6D9EB1ED9F347C6D85 /* Pods-TikTokDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TikTokDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EBBEE2BCA91C1155C8573E3148BD8F1 /* GSPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GSPlayer-Info.plist"; sourceTree = "<group>"; };
+		A51E1221EAEE5959A4BE0C1F9F699276 /* Int+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Extensions.swift"; path = "GSPlayer/Classes/Extension/Int+Extensions.swift"; sourceTree = "<group>"; };
+		A5E5D353B8C9FCED6BD9361108F74A9C /* GSPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GSPlayer-dummy.m"; sourceTree = "<group>"; };
+		A6977FC96D047686B2E5EE907E85989F /* Float+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Float+Extensions.swift"; path = "GSPlayer/Classes/Extension/Float+Extensions.swift"; sourceTree = "<group>"; };
+		A82A4184D82EE50E02F026B5689FC438 /* VideoCacheHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoCacheHandler.swift; path = GSPlayer/Classes/Cache/VideoCacheHandler.swift; sourceTree = "<group>"; };
+		A9BB27DC5322A77F0DF0B76A6A8CBBD1 /* Pods-TikTokDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TikTokDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		AF0CB68C610149733862C024174576BF /* Pods-TikTokDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TikTokDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C1B8BB41E68FA2C4420E8E35106EC2AE /* GSPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GSPlayer.release.xcconfig; sourceTree = "<group>"; };
+		CC723717F79D1CD43F1C239A26CA4267 /* GSPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GSPlayer.modulemap; sourceTree = "<group>"; };
+		E33AA67827725380F5B2A8F0EC2CA2C9 /* AVPlayerItem+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVPlayerItem+Extensions.swift"; path = "GSPlayer/Classes/Extension/AVPlayerItem+Extensions.swift"; sourceTree = "<group>"; };
+		EBB8F4BB70075B6326FF85999F5E29D9 /* Pods-TikTokDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TikTokDemo-dummy.m"; sourceTree = "<group>"; };
+		ECD65AAF633722D07D2B81D817BFF7F6 /* VideoPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoPlayerView.swift; path = GSPlayer/Classes/View/VideoPlayerView.swift; sourceTree = "<group>"; };
+		F0729C9C66C5DEE7298333FABAD748A6 /* Pods-TikTokDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TikTokDemo-Info.plist"; sourceTree = "<group>"; };
+		F823D8CECDB22793F10A4A8E89EAC6C2 /* AVAssetResourceLoadingRequest+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVAssetResourceLoadingRequest+Extensions.swift"; path = "GSPlayer/Classes/Extension/AVAssetResourceLoadingRequest+Extensions.swift"; sourceTree = "<group>"; };
+		FA85855BFF08757F1FFE42612E5987BF /* GSPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GSPlayer.debug.xcconfig; sourceTree = "<group>"; };
+		FCECC94B02E5F447516967E78BEF62D1 /* VideoPreloadManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoPreloadManager.swift; path = GSPlayer/Classes/Loader/VideoPreloadManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		694FD43F399942D5DEF82B359B6635EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289FED8F5165D62CEE47145474C4C5B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F2BFAC1FFAB2EC9C1205C0CF2CE6D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99B5B021844C87F17A597D1D4A18109 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3182ADD74D1D190A0758804CB5A1DB50 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB539C865B783F35B741BE6CEBE555F9 /* Pods-TikTokDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9B793F670368B84877ADDBEF445DB3B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC723717F79D1CD43F1C239A26CA4267 /* GSPlayer.modulemap */,
+				A5E5D353B8C9FCED6BD9361108F74A9C /* GSPlayer-dummy.m */,
+				9EBBEE2BCA91C1155C8573E3148BD8F1 /* GSPlayer-Info.plist */,
+				4BA7FBBECE29F00EC3CAAA7B83FC187B /* GSPlayer-prefix.pch */,
+				1EAB857337ADFDB6FFE02136CC44EC3E /* GSPlayer-umbrella.h */,
+				FA85855BFF08757F1FFE42612E5987BF /* GSPlayer.debug.xcconfig */,
+				C1B8BB41E68FA2C4420E8E35106EC2AE /* GSPlayer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GSPlayer";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FB8C65DA62EA2CC08E8E4424C9C5DD33 /* Pods */,
+				E927A261670474B2D1D2F1270074214A /* Products */,
+				3182ADD74D1D190A0758804CB5A1DB50 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB539C865B783F35B741BE6CEBE555F9 /* Pods-TikTokDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1CD1F1499705854AC0A60BBAC208D234 /* Pods-TikTokDemo.modulemap */,
+				9CF278DB05C14B6D9EB1ED9F347C6D85 /* Pods-TikTokDemo-acknowledgements.markdown */,
+				A9BB27DC5322A77F0DF0B76A6A8CBBD1 /* Pods-TikTokDemo-acknowledgements.plist */,
+				EBB8F4BB70075B6326FF85999F5E29D9 /* Pods-TikTokDemo-dummy.m */,
+				5667A6A28E3C4BE3A90862102733737C /* Pods-TikTokDemo-frameworks.sh */,
+				F0729C9C66C5DEE7298333FABAD748A6 /* Pods-TikTokDemo-Info.plist */,
+				8F9A4AB9F543129CE4F744B048E0C85C /* Pods-TikTokDemo-umbrella.h */,
+				AF0CB68C610149733862C024174576BF /* Pods-TikTokDemo.debug.xcconfig */,
+				62D659BEFB8367F06FC4E1A61F1DC11A /* Pods-TikTokDemo.release.xcconfig */,
+			);
+			name = "Pods-TikTokDemo";
+			path = "Target Support Files/Pods-TikTokDemo";
+			sourceTree = "<group>";
+		};
+		E927A261670474B2D1D2F1270074214A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				809B2C3EED38CDC368DB0F367C1C5FE5 /* GSPlayer */,
+				26FD233C238F4D647EBAF25B7CD3FFDC /* Pods-TikTokDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAFF543435938FCE7DE9B62D2BF0109E /* GSPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F823D8CECDB22793F10A4A8E89EAC6C2 /* AVAssetResourceLoadingRequest+Extensions.swift */,
+				32933F705EEB283AF75E17FC85C85199 /* AVPlayer+Extensions.swift */,
+				E33AA67827725380F5B2A8F0EC2CA2C9 /* AVPlayerItem+Extensions.swift */,
+				1751F2537D98A01304E8BC154D62B10E /* Double+Extensions.swift */,
+				A6977FC96D047686B2E5EE907E85989F /* Float+Extensions.swift */,
+				A51E1221EAEE5959A4BE0C1F9F699276 /* Int+Extensions.swift */,
+				3AA69939EEB725CD436925ABD2D7092D /* String+Extensions.swift */,
+				7C5C1BC1A910BA7628C239D1BB6A789E /* VideoCacheAction.swift */,
+				934962BEF881B0B454F9A56BE22E2D04 /* VideoCacheConfiguration.swift */,
+				A82A4184D82EE50E02F026B5689FC438 /* VideoCacheHandler.swift */,
+				6E58B81B05807DB2F362651704BCA7EB /* VideoCacheManager.swift */,
+				42072EA7CDF3D22DCEA15E1CDAB30B37 /* VideoDownloader.swift */,
+				1E7A3DE50FBCA4219E07B120FE11D899 /* VideoDownloaderHandler.swift */,
+				2A71D1891D93E92541E59B0AE19BED23 /* VideoDownloaderSessionDelegateHandler.swift */,
+				064DFC3CBC4D033E1B8CAC14EA0CBCE6 /* VideoDownloadInfo.swift */,
+				22F1062C1C8D5C53DF834BD09BAD400F /* VideoFullscreenPlayerView.swift */,
+				1849B77CD34A6787A02AEA54D18A8EA7 /* VideoFullscreenTransitioner.swift */,
+				73DD64B233EF4F8942AB68090B73F99C /* VideoInfo.swift */,
+				4B5AD15AA989246EE715887CCD202EF2 /* VideoLoader.swift */,
+				10B2006C12AD147C6A6415A4F31F6648 /* VideoLoadManager.swift */,
+				ECD65AAF633722D07D2B81D817BFF7F6 /* VideoPlayerView.swift */,
+				FCECC94B02E5F447516967E78BEF62D1 /* VideoPreloadManager.swift */,
+				8BD5FA91783B05A5C4430B929277C825 /* VideoRequestLoader.swift */,
+				9B793F670368B84877ADDBEF445DB3B9 /* Support Files */,
+			);
+			name = GSPlayer;
+			path = GSPlayer;
+			sourceTree = "<group>";
+		};
+		FB8C65DA62EA2CC08E8E4424C9C5DD33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAFF543435938FCE7DE9B62D2BF0109E /* GSPlayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		372671A629BF24760C303396AAED01BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A3A5DBF024791A117B34D969819517 /* Pods-TikTokDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B261E43FC76502F951D387648946C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C82B06C8559783A6EC45BD684BCFB16 /* GSPlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		50D5373B27D8A6802F70DC3E85BF8716 /* GSPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A2CAAAAC9680F095821DF1E975A091 /* Build configuration list for PBXNativeTarget "GSPlayer" */;
+			buildPhases = (
+				82B261E43FC76502F951D387648946C5 /* Headers */,
+				01F3303A776B8871A65CBEDAA2D21FA9 /* Sources */,
+				694FD43F399942D5DEF82B359B6635EF /* Frameworks */,
+				444EE82871753FEB9CC2E8BF82810CC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSPlayer;
+			productName = GSPlayer;
+			productReference = 809B2C3EED38CDC368DB0F367C1C5FE5 /* GSPlayer */;
+			productType = "com.apple.product-type.framework";
+		};
+		E68C9A50412D119FC97703AEB4DC3131 /* Pods-TikTokDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885E269E5196428E0B16360E6EB87FDD /* Build configuration list for PBXNativeTarget "Pods-TikTokDemo" */;
+			buildPhases = (
+				372671A629BF24760C303396AAED01BF /* Headers */,
+				8CD84A56EE9372B81BBABAC6937B03B5 /* Sources */,
+				8F2BFAC1FFAB2EC9C1205C0CF2CE6D41 /* Frameworks */,
+				7C371BF6136C47442760D2BB967FA700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE6EAD4CB7CEEE1DC8B41ADEAF68A45D /* PBXTargetDependency */,
+			);
+			name = "Pods-TikTokDemo";
+			productName = Pods_TikTokDemo;
+			productReference = 26FD233C238F4D647EBAF25B7CD3FFDC /* Pods-TikTokDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E927A261670474B2D1D2F1270074214A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50D5373B27D8A6802F70DC3E85BF8716 /* GSPlayer */,
+				E68C9A50412D119FC97703AEB4DC3131 /* Pods-TikTokDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		444EE82871753FEB9CC2E8BF82810CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C371BF6136C47442760D2BB967FA700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01F3303A776B8871A65CBEDAA2D21FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C6D81E74D372BD4E08D791716308F1 /* AVAssetResourceLoadingRequest+Extensions.swift in Sources */,
+				4A82106C26CA6CCE1A6F810100F25F1E /* AVPlayer+Extensions.swift in Sources */,
+				DE4607625926C5B769341885B3C488B6 /* AVPlayerItem+Extensions.swift in Sources */,
+				D8C4A7FD4CD34FDAFDA7357D170BD51A /* Double+Extensions.swift in Sources */,
+				B4783C41FA22D4E5AA2F078B53040503 /* Float+Extensions.swift in Sources */,
+				2FD44E818BB4482738FE660F8E64A86C /* GSPlayer-dummy.m in Sources */,
+				C0EA1C1AAE2E20DED2F70FA7F97D6D06 /* Int+Extensions.swift in Sources */,
+				4783FB1F2AF274CC05E491CA7E8A94CA /* String+Extensions.swift in Sources */,
+				24B6737A9AABC8DBE7DA318B50C5B560 /* VideoCacheAction.swift in Sources */,
+				4B415487E2BC3487CB6A468BC94A5AF4 /* VideoCacheConfiguration.swift in Sources */,
+				DD8D792486A6C81510134ECE9BD43CAA /* VideoCacheHandler.swift in Sources */,
+				5C0BADEBF1273C00C832657FFFA27CC6 /* VideoCacheManager.swift in Sources */,
+				E3D1078D2C74443EE56D0C85DEA986DD /* VideoDownloader.swift in Sources */,
+				F048A60C28A6E3A61186C8C52E02BD5B /* VideoDownloaderHandler.swift in Sources */,
+				7FFD73973C27E1F799F15DC6DB1222F5 /* VideoDownloaderSessionDelegateHandler.swift in Sources */,
+				3D5A87B6896E93E3F43056F597DB6355 /* VideoDownloadInfo.swift in Sources */,
+				6ABF3BFD45C0B21D957CA45156EE3385 /* VideoFullscreenPlayerView.swift in Sources */,
+				BD87773BCEEDF08E6A90CA47DDEBD16B /* VideoFullscreenTransitioner.swift in Sources */,
+				B7AB590F2D4CCE324E28D33168B113B3 /* VideoInfo.swift in Sources */,
+				BC3AFD6C60C9E3DDA9228B7E26A45399 /* VideoLoader.swift in Sources */,
+				E7F5BF60120215B89BCEEA38EF3A3393 /* VideoLoadManager.swift in Sources */,
+				2A2EEE6A0078AF3E32798171C1097DF9 /* VideoPlayerView.swift in Sources */,
+				5525FB4F48E5FFE77740544CBD30A6A7 /* VideoPreloadManager.swift in Sources */,
+				D69FD70A580EF63DB7746FE82FFF2C52 /* VideoRequestLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD84A56EE9372B81BBABAC6937B03B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E82711AA844D4745AAC9BB9820F7A20 /* Pods-TikTokDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE6EAD4CB7CEEE1DC8B41ADEAF68A45D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GSPlayer;
+			target = 50D5373B27D8A6802F70DC3E85BF8716 /* GSPlayer */;
+			targetProxy = 446DC7D152D44A5BA829F90F6CF83A2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3AD0A11F35DEEC9F8C90C66034E3CF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0CB68C610149733862C024174576BF /* Pods-TikTokDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TikTokDemo/Pods-TikTokDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TikTokDemo/Pods-TikTokDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AA6A87807E32501F8DB078E621B5B6C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA85855BFF08757F1FFE42612E5987BF /* GSPlayer.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GSPlayer/GSPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GSPlayer/GSPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GSPlayer/GSPlayer.modulemap";
+				PRODUCT_MODULE_NAME = GSPlayer;
+				PRODUCT_NAME = GSPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9A00FD17D49E7C9A92644483E388E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62D659BEFB8367F06FC4E1A61F1DC11A /* Pods-TikTokDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TikTokDemo/Pods-TikTokDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TikTokDemo/Pods-TikTokDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F78E39C9985F6073D1DF3DB581C1E98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B8BB41E68FA2C4420E8E35106EC2AE /* GSPlayer.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GSPlayer/GSPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GSPlayer/GSPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GSPlayer/GSPlayer.modulemap";
+				PRODUCT_MODULE_NAME = GSPlayer;
+				PRODUCT_NAME = GSPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885E269E5196428E0B16360E6EB87FDD /* Build configuration list for PBXNativeTarget "Pods-TikTokDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD0A11F35DEEC9F8C90C66034E3CF27 /* Debug */,
+				C9A00FD17D49E7C9A92644483E388E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A2CAAAAC9680F095821DF1E975A091 /* Build configuration list for PBXNativeTarget "GSPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6A87807E32501F8DB078E621B5B6C8 /* Debug */,
+				F78E39C9985F6073D1DF3DB581C1E98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
